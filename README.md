@@ -99,7 +99,7 @@ To run the API locally, follow these steps:
 
 ## UML Diagram
 
-![Alt text](image-1.png)
+![Alt text](image.png)
 
 ## Documentation
 
