@@ -4,13 +4,14 @@ This is a simple REST API built with Node.js and SQLite3, capable of performing 
 
 ## Table of Contents
 
-1. [Installation](#installation)
-2. [Usage](#usage)
-3. [API Endpoints](#api-endpoints)
-4. [Testing](#testing)
-5. [UML Diagram](#uml-diagram)
-6. [Documentation](#documentation)
-7. [Hosting](#hosting)
+- [REST API with Basic CRUD Operations](#rest-api-with-basic-crud-operations)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [API Endpoints](#api-endpoints)
+  - [UML Diagram](#uml-diagram)
+  - [Documentation](#documentation)
+  - [Hosting](#hosting)
 
 ## Installation
 
@@ -98,7 +99,7 @@ To run the API locally, follow these steps:
 
 ## UML Diagram
 
-
+![Alt text](image-1.png)
 
 ## Documentation
 

@@ -1,0 +1,146 @@
+{
+	"id": "f30b665d-31b1-471c-b87b-fc2450a68a6e",
+	"name": "HNGx-stage-two",
+	"timestamp": "2023-09-12T11:12:39.243Z",
+	"collection_id": "20930286-c6c961d8-f8cd-4184-94b5-1ff0ea81b2d7",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-09-12T11:12:37.753Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "0781e28a-0a7b-4d15-93e8-1e626c7cf0e9",
+			"name": "Get data",
+			"url": "localhost:3000/api/1",
+			"time": 9,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				9
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "1efc7967-1318-4a82-87fa-53793c17968d",
+			"name": "Post data",
+			"url": "localhost:3000/api",
+			"time": 15,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Successful POST request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				15
+			],
+			"allTests": [
+				{
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "231a14ca-10bf-4154-ad55-a8ef58573188",
+			"name": "Update data",
+			"url": "localhost:3000/api/2",
+			"time": 4,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful PUT request": true
+			},
+			"testPassFailCounts": {
+				"Successful PUT request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				4
+			],
+			"allTests": [
+				{
+					"Successful PUT request": true
+				}
+			]
+		},
+		{
+			"id": "d4ec0c21-8d90-4872-b115-dbfcb1bb691d",
+			"name": "Delete data",
+			"url": "localhost:3000/api/8",
+			"time": 13,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Successful DELETE request": true
+			},
+			"testPassFailCounts": {
+				"Successful DELETE request": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				13
+			],
+			"allTests": [
+				{
+					"Successful DELETE request": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 41,
+	"collection": {
+		"requests": [
+			{
+				"id": "0781e28a-0a7b-4d15-93e8-1e626c7cf0e9",
+				"method": "GET"
+			},
+			{
+				"id": "1efc7967-1318-4a82-87fa-53793c17968d",
+				"method": "POST"
+			},
+			{
+				"id": "231a14ca-10bf-4154-ad55-a8ef58573188",
+				"method": "PUT"
+			},
+			{
+				"id": "d4ec0c21-8d90-4872-b115-dbfcb1bb691d",
+				"method": "DELETE"
+			}
+		]
+	}
+}
